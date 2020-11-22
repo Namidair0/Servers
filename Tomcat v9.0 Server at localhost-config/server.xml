@@ -156,7 +156,9 @@
 				 
         <Context docBase="JSP_Training" path="/JSP_Training" reloadable="true" source="org.eclipse.jst.jee.server:JSP_Training"/>
         
-		<Context docBase="JSP_Project_WebMarket" path="/JSP_Project_WebMarket" reloadable="true" source="org.eclipse.jst.jee.server:JSP_Project_WebMarket"/><Context docBase="JSP_Project_KikiService" path="/JSP_Project_KikiService" reloadable="true" source="org.eclipse.jst.jee.server:JSP_Project_KikiService"/>
+		<Context docBase="JSP_Project_KikiService" path="/JSP_Project_KikiService" reloadable="true" source="org.eclipse.jst.jee.server:JSP_Project_KikiService"/>
+		
+		<Context docBase="JSP_Project_WebMarket" path="/JSP_Project_WebMarket" reloadable="true" source="org.eclipse.jst.jee.server:JSP_Project_WebMarket"/>
       
       </Host>
     </Engine>
