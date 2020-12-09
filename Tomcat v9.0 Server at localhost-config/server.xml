@@ -160,7 +160,10 @@
 		
 		<Context docBase="JSP_Project_WebMarket" path="/JSP_Project_WebMarket" reloadable="true" source="org.eclipse.jst.jee.server:JSP_Project_WebMarket"/>
       
+      	<Context docBase="SPRING_Training" path="/polymorphism" reloadable="true" source="org.eclipse.jst.jee.server:SPRING_Training"/>
+      	
       </Host>
+      	
     </Engine>
   </Service>
 </Server>
