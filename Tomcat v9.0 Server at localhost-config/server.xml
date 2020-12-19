@@ -154,15 +154,15 @@
              
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 				 
-        <Context docBase="JSP_Training" path="/JSP_Training" reloadable="true" source="org.eclipse.jst.jee.server:JSP_Training"/>
         
-		<Context docBase="JSP_Project_KikiService" path="/JSP_Project_KikiService" reloadable="true" source="org.eclipse.jst.jee.server:JSP_Project_KikiService"/>
+        
 		
-		<Context docBase="JSP_Project_WebMarket" path="/JSP_Project_WebMarket" reloadable="true" source="org.eclipse.jst.jee.server:JSP_Project_WebMarket"/>
+		
+		
       
-      	<Context docBase="SPRING_Training" path="/polymorphism" reloadable="true" source="org.eclipse.jst.jee.server:SPRING_Training"/>
       	
-      </Host>
+      	
+      <Context docBase="SPRING_Training" path="/polymorphism" reloadable="true" source="org.eclipse.jst.jee.server:SPRING_Training"/></Host>
       	
     </Engine>
   </Service>
