@@ -160,6 +160,8 @@
 
       <Context docBase="JSP_Project_WebMarket" path="/JSP_Project_WebMarket" reloadable="true" source="org.eclipse.jst.jee.server:JSP_Project_WebMarket"/>
       
+      <Context docBase="SPRING_Project_InterClass" path="/SPRING_Project_InterClass" reloadable="true" source="org.eclipse.jst.jee.server:SPRING_Project_InterClass"/>
+      
       </Host>  	
     </Engine>
   </Service>
