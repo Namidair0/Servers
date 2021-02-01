@@ -152,17 +152,21 @@
              Documentation at: /docs/config/valve.html
              Note: The pattern used is equivalent to using pattern="common" -->
              
-        <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
+      <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
       	
-      <Context docBase="SPRING_Training" path="/SPRING_Training" reloadable="true" source="org.eclipse.jst.jee.server:SPRING_Training"/>
-      
+      <Context docBase="JSP_Training" path="/JSP_Training" reloadable="true" source="org.eclipse.jst.jee.server:JSP_Training"/>
+      	
       <Context docBase="JSP_Project_KikiService" path="/JSP_Project_KikiService" reloadable="true" source="org.eclipse.jst.jee.server:JSP_Project_KikiService"/>
 
       <Context docBase="JSP_Project_WebMarket" path="/JSP_Project_WebMarket" reloadable="true" source="org.eclipse.jst.jee.server:JSP_Project_WebMarket"/>
+    
+      <Context docBase="SPRING_Training" path="/SPRING_Training" reloadable="true" source="org.eclipse.jst.jee.server:SPRING_Training"/>
+	
+      <Context docBase="SPRING_Project_KanTan" path="/SPRING_Project_KanTan" reloadable="true" source="org.eclipse.jst.jee.server:SPRING_Project_KanTan"/>
       
       <Context docBase="SPRING_Project_InterClass" path="/SPRING_Project_InterClass" reloadable="true" source="org.eclipse.jst.jee.server:SPRING_Project_InterClass"/>
       
-      </Host>  	
+      </Host>
     </Engine>
   </Service>
 </Server>
