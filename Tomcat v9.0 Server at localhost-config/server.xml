@@ -164,7 +164,7 @@
 	
       <Context docBase="SPRING_Project_KanTan" path="/SPRING_Project_KanTan" reloadable="true" source="org.eclipse.jst.jee.server:SPRING_Project_KanTan"/>
       
-      <Context docBase="SPRING_Project_InterClass" path="/SPRING_Project_InterClass" reloadable="true" source="org.eclipse.jst.jee.server:SPRING_Project_InterClass"/>
+      <Context docBase="SPRING_Project_InterClass" path="/" reloadable="true" source="org.eclipse.jst.jee.server:SPRING_Project_InterClass"/>
       
       </Host>
     </Engine>
