@@ -156,6 +156,8 @@
       
       <Context docBase="SPRING_Project_InterClass" path="/" reloadable="true" source="org.eclipse.jst.jee.server:SPRING_Project_InterClass"/>
       
+      <Context docBase="SPRING_Project_AppleStore" path="/index" reloadable="true" source="org.eclipse.jst.jee.server:SPRING_Project_AppleStore"/><Context docBase="SPRING_Project_KanTan" path="/member" reloadable="true" source="org.eclipse.jst.jee.server:SPRING_Project_KanTan"/>
+      
       </Host>
     </Engine>
   </Service>
